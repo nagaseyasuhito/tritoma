@@ -34,7 +34,7 @@
 		</profile>
 
 		<profile>
-			<id>product</id>
+			<id>production</id>
 			<properties>
 				<maven.test.skip>true</maven.test.skip>
 				<javax.persistence.jdbc.driver>org.postgresql.Driver</javax.persistence.jdbc.driver>
@@ -55,7 +55,7 @@
 	<repositories>
 		<repository>
 			<id>com.github.nagaseyasuhito</id>
-			<url>https://nagaseyasuhito.github.com/m2-repo/</url>
+			<url>http://nagaseyasuhito.github.com/m2-repo/</url>
 		</repository>
 	</repositories>
 
