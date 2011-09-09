@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+</head>
+
+<body>
+<form wicket:id="signUpForm">
+<div wicket:id="feedback"/>
+<h2><wicket:message key="user.mailAddress"/></h2>
+<input wicket:id="user.mailAddress" type="text"/>
+<h2><wicket:message key="user.password"/></h2>
+<input wicket:id="user.password" type="password"/>
+<h2><wicket:message key="confirmPassword"/></h2>
+<input wicket:id="confirmPassword" type="password"/>
+<input wicket:id="register" wicket:message="value:register" type="submit"/>
+</form>
+</body>
+</html>
