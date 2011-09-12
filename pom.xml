@@ -39,8 +39,8 @@
 				<maven.test.skip>true</maven.test.skip>
 				<javax.persistence.jdbc.driver>org.postgresql.Driver</javax.persistence.jdbc.driver>
 				<javax.persistence.jdbc.url>jdbc:postgresql://localhost/tritoma</javax.persistence.jdbc.url>
-				<!--javax.persistence.jdbc.user>see settings.xml</javax.persistence.jdbc.user-->
-				<!--javax.persistence.jdbc.password>see settings.xml</javax.persistence.jdbc.password-->
+				<!--javax.persistence.jdbc.user>see settings.xml</javax.persistence.jdbc.user -->
+				<!--javax.persistence.jdbc.password>see settings.xml</javax.persistence.jdbc.password -->
 			</properties>
 			<dependencies>
 				<dependency>
@@ -75,14 +75,14 @@
 					<encoding>utf-8</encoding>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.mortbay.jetty</groupId>
+				<artifactId>maven-jetty-plugin</artifactId>
+			</plugin>
 		</plugins>
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
-				<includes>
-					<include>**/*.html</include>
-					<include>META-INF/persistence.xml</include>
-				</includes>
 				<filtering>true</filtering>
 			</resource>
 		</resources>
