@@ -18,7 +18,7 @@ public class SignUpPage extends BasePage {
 	private static final long serialVersionUID = 1L;
 
 	@SuppressWarnings("unused")
-	private String confirmPassword;
+	private CharSequence confirmPassword;
 
 	private User user;
 
